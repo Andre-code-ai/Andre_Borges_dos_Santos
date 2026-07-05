@@ -30,19 +30,32 @@ const conteudos = {
                 <ul>
                     <li>UNESC - Criciúma, SC</li>
                     <li>Bacharelado de Ciência da Computação</li>
-                    <li>Status - Cursando | Previsão - Março 2029</li>
+                    <li>Status - Cursando | Previsão - Dezembro 2028</li>
                 </ul>
             </article>
         `,
         "projetos": `
         <h2>PROJETOS </h2>
+        <article id="Ninja_System">
+            <ul>
+                <li>Nome do Projeto: <a href="https://github.com/Andre-code-ai/Projeto_Interdisciplinar_Java_Banco_de_Dados" target="_blank"
+                        rel="noopener">Sistema-de-Gerenciamento-Ninja.</a>
+                </li>
+                <li>Tecnologia usada: Java (Swing/JDBC), MySQL.</li>
+                <li>O que faz: Sistema desktop em camadas (DAO/Service/View) para gerenciar ninjas e missões, com
+                    validação de regras de negócio, vínculo entre ninja e missão, geração de totalizadores e views
+                    otimizadas no banco.</li>
+                <li>Aprendizado: Aprendi arquitetura em camadas, otimização de queries SQL e boas práticas de
+                    gerenciamento de recursos JDBC.</li>
+            </ul>
+        </article>
         <article id="Market_Analyst">
             <ul>
                 <li>Nome do Projeto: <a href="https://github.com/Andre-code-ai/market-sentiment-analyst" target="_blank"
                         rel="noopener">Market-Sentiment-Analyst.</a>
                 </li>
                 <li>Tecnologia usada: FastAPI, Streamlit, Groq Cloud, Pandas, Plotly, NewsAPI.</li>
-                <li>O'Que faz: Ferramenta de análise financeira que processa manchetes via NewsAPI e utiliza modelos de
+                <li>O que faz: Ferramenta de análise financeira que processa manchetes via NewsAPI e utiliza modelos de
                     linguagem (Llama 3.1 via Groq) para classificar o sentimento do mercado em tempo real.</li>
                 <li>Aprendizado: Aprendi a desenvolver sistemas de análises de dados com usos de API e Inteligência
                     Artificial.</li>
@@ -52,11 +65,12 @@ const conteudos = {
             <ul>
                 <li>Nome do Projeto: <a href="https://github.com/Andre-code-ai/Urna_Eletronica-Python" target="_blank"
                         rel="noopener">Urna-Eletrônica.</a></li>
-                <li>Tecnologia usada: Tkinter, mysql.</li>
-                <li>O'Que faz: Sistema de votação com interface gráfica em Tkinter e persistência de dados em MySQL,
-                    garantindo a integridade e organização dos registros.</li>
-                <li>Aprendizado: Aprendi a como aplicar interfaces de aplicativos com inserção de dados no mysql
-                    workbench.</li>
+                <li>Tecnologia usada: Python, Tkinter, MySQL.</li>
+                <li>O que faz: Sistema de votação com interface gráfica em Tkinter, arquitetura em camadas
+                    (conexão/serviço/interface) e banco de dados MySQL normalizado, com tabela de candidatos vinculada
+                    aos votos por chave estrangeira.</li>
+                <li>Aprendizado: Aprendi a estruturar um projeto Python em camadas e a normalizar um banco de dados
+                    relacional com integridade referencial.</li>
             </ul>
         </article>
         <article id="Interface_Web">
@@ -65,7 +79,7 @@ const conteudos = {
                         rel="noopener">Interface-Web-Responsiva.</a>
                 </li>
                 <li>Tecnologia usada: Desenvolvimento web [HTML, CSS].</li>
-                <li>O'Que faz: Desenvolvimento de uma página web estática focada em boas práticas de layout e adaptação
+                <li>O que faz: Desenvolvimento de uma página web estática focada em boas práticas de layout e adaptação
                     para diferentes tamanhos de tela.</li>
                 <li>Aprendizado: Primeiro projeto web desenvolvido na faculdade, aprendendo a como criar sites
                     responsivos.</li>
@@ -123,13 +137,21 @@ const conteudos = {
             <article>
                 <ul>
                     <li>UNESC - Criciúma, SC</li>
-                    <li>Bachalor of Computer Science</li>
-                    <li>Status - Enrolled | Expected Graduation - March 2029</li>
+                    <li>Bachelor of Computer Science</li>
+                    <li>Status - Enrolled | Expected Graduation - December 2028</li>
                 </ul>
             </article>`,
 
         "projetos": `
         <h2>MAIN PROJECTS</h2>
+<article id="Ninja_System">
+    <ul>
+        <li>Project Name: <a href="https://github.com/Andre-code-ai/Projeto_Interdisciplinar_Java_Banco_de_Dados" target="_blank" rel="noopener">Ninja-Management-System.</a></li>
+        <li>Technologies used: Java (Swing/JDBC), MySQL.</li>
+        <li>What it does: Layered desktop system (DAO/Service/View) for managing ninjas and missions, including business rule validation, ninja-mission linking, totalizer generation, and optimized database views.</li>
+        <li>Key Learning: Learned layered architecture, SQL query optimization, and JDBC resource management best practices.</li>
+    </ul>
+</article>
 <article id="Market_Analyst">
     <ul>
         <li>Project Name: <a href="https://github.com/Andre-code-ai/market-sentiment-analyst" target="_blank" rel="noopener">Market-Sentiment-Analyst.</a></li>
@@ -141,9 +163,9 @@ const conteudos = {
 <article id="Urna_Eletronica">
     <ul>
         <li>Project Name: <a href="https://github.com/Andre-code-ai/Urna_Eletronica-Python" target="_blank" rel="noopener">Urna-Eletrônica.</a></li>
-        <li>Technologies used: Tkinter, MySQL.</li>
-        <li>What it does: Voting system with a Tkinter graphical interface and MySQL data persistence, ensuring record integrity and organization.</li>
-        <li>Key Learning: Implemented application interfaces with data insertion in MySQL Workbench.</li>
+        <li>Technologies used: Python, Tkinter, MySQL.</li>
+        <li>What it does: Voting system with a Tkinter graphical interface, layered architecture (connection/service/UI), and a normalized MySQL database, with a candidates table linked to votes via foreign key.</li>
+        <li>Key Learning: Learned how to structure a layered Python project and normalize a relational database with referential integrity.</li>
     </ul>
 </article>
 <article id="Interface_Web">
@@ -202,12 +224,12 @@ const conteudos = {
             
             `,
         "formacao": `
-            <h2>EDUCATION</h2>
+            <h2>FORMACIÓN ACADÉMICA</h2>
             <article>
                 <ul>
                     <li>UNESC - Criciúma, SC</li>
                     <li>Grado en Ciencias de la Computación</li>
-                    <li>Estado: En curso | Graduación prevista: Marzo de 2029</li>
+                    <li>Estado: En curso | Graduación prevista: Diciembre de 2028</li>
                 </ul>
             </article>
             
@@ -215,6 +237,14 @@ const conteudos = {
 
         "projetos": `
             <h2>PROYECTOS PRINCIPALES</h2>
+<article id="Ninja_System">
+    <ul>
+        <li>Nombre del Proyecto: <a href="https://github.com/Andre-code-ai/Projeto_Interdisciplinar_Java_Banco_de_Dados" target="_blank" rel="noopener">Sistema-de-Gestión-Ninja.</a></li>
+        <li>Tecnología utilizada: Java (Swing/JDBC), MySQL.</li>
+        <li>Qué hace: Sistema de escritorio en capas (DAO/Service/View) para gestionar ninjas y misiones, con validación de reglas de negocio, vinculación ninja-misión, generación de totalizadores y vistas optimizadas en la base de datos.</li>
+        <li>Aprendizaje: Aprendí arquitectura en capas, optimización de consultas SQL y buenas prácticas de gestión de recursos JDBC.</li>
+    </ul>
+</article>
 <article id="Market_Analyst">
     <ul>
         <li>Nombre del Proyecto: <a href="https://github.com/Andre-code-ai/market-sentiment-analyst" target="_blank" rel="noopener">Market-Sentiment-Analyst.</a></li>
@@ -226,9 +256,9 @@ const conteudos = {
 <article id="Urna_Eletronica">
     <ul>
         <li>Nombre del Proyecto: <a href="https://github.com/Andre-code-ai/Urna_Eletronica-Python" target="_blank" rel="noopener">Urna-Eletrônica.</a></li>
-        <li>Tecnología utilizada: Tkinter, MySQL.</li>
-        <li>Qué hace: Sistema de votación con interfaz gráfica en Tkinter y persistencia de datos en MySQL, garantizando la integridad y organización de los registros.</li>
-        <li>Aprendizaje: Aprendí a aplicar interfaces de aplicaciones con inserción de datos en MySQL Workbench.</li>
+        <li>Tecnología utilizada: Python, Tkinter, MySQL.</li>
+        <li>Qué hace: Sistema de votación con interfaz gráfica en Tkinter, arquitectura en capas (conexión/servicio/interfaz) y base de datos MySQL normalizada, con una tabla de candidatos vinculada a los votos mediante clave foránea.</li>
+        <li>Aprendizaje: Aprendí a estructurar un proyecto Python en capas y a normalizar una base de datos relacional con integridad referencial.</li>
     </ul>
 </article>
 <article id="Interface_Web">
@@ -291,12 +321,20 @@ const conteudos = {
                 <ul>
                     <li>UNESC - Criciúma, SC</li>
                     <li>Bachelor i informatikk</li>
-                    <li>Pågående | Forventet ferdigstillelse: Mars 2029</li>
+                    <li>Pågående | Forventet ferdigstillelse: Desember 2028</li>
                 </ul>
             </article>
         `,
         "projetos": `
         <h2>HOVEDPROSJEKTER</h2>
+<article id="Ninja_System">
+    <ul>
+        <li>Prosjektnavn: <a href="https://github.com/Andre-code-ai/Projeto_Interdisciplinar_Java_Banco_de_Dados" target="_blank" rel="noopener">Ninja-administrasjonssystem.</a></li>
+        <li>Brukt teknologi: Java (Swing/JDBC), MySQL.</li>
+        <li>Hva det gjør: Lagdelt skrivebordssystem (DAO/Service/View) for å administrere ninjaer og oppdrag, med validering av forretningsregler, kobling mellom ninja og oppdrag, generering av oppsummeringer og optimaliserte databasevisninger.</li>
+        <li>Læring: Lærte lagdelt arkitektur, SQL-spørringsoptimalisering og god praksis for JDBC-ressurshåndtering.</li>
+    </ul>
+</article>
 <article id="Market_Analyst">
     <ul>
         <li>Prosjektnavn: <a href="https://github.com/Andre-code-ai/market-sentiment-analyst" target="_blank" rel="noopener">Market-Sentiment-Analyst.</a></li>
@@ -308,9 +346,9 @@ const conteudos = {
 <article id="Urna_Eletronica">
     <ul>
         <li>Prosjektnavn: <a href="https://github.com/Andre-code-ai/Urna_Eletronica-Python" target="_blank" rel="noopener">Urna-Eletrônica.</a></li>
-        <li>Brukt teknologi: Tkinter, MySQL.</li>
-        <li>Hva det gjør: Valsystem med grafisk grensesnitt i Tkinter og datapersistens i MySQL, som sikrer integritet og organisering av registreringer.</li>
-        <li>Læring: Lærte å implementere applikasjonsgrensesnitt med datainnsetting i MySQL Workbench.</li>
+        <li>Brukt teknologi: Python, Tkinter, MySQL.</li>
+        <li>Hva det gjør: Valsystem med grafisk grensesnitt i Tkinter, lagdelt arkitektur (tilkobling/tjeneste/grensesnitt) og en normalisert MySQL-database, med en kandidattabell koblet til stemmene via fremmednøkkel.</li>
+        <li>Læring: Lærte å strukturere et lagdelt Python-prosjekt og normalisere en relasjonsdatabase med referanseintegritet.</li>
     </ul>
 </article>
 <article id="Interface_Web">
@@ -355,10 +393,19 @@ const conteudos = {
     }
 };
 
+const langCodes = {
+    portugues: "pt-BR",
+    ingles: "en",
+    espanhol: "es",
+    noruegues: "no"
+};
+
 const selectIdioma = document.getElementById('Idiomas');
 
 selectIdioma.addEventListener('change', (e) => {
     const lang = e.target.value;
+
+    document.documentElement.lang = langCodes[lang];
 
     document.getElementById("contato").innerHTML = conteudos[lang].contato;
     document.getElementById('sobre').innerHTML = conteudos[lang].sobre;
